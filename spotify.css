@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 12px;
+}
+.brand img{
+    width: 57px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    min-height: 70vh;
+    display: flex;
+    margin: 22px auto;
+    width: 75%;
+    background-image: url('sau.jpg');
+    background-size: 947px 420px;
+    background-repeat: no-repeat
+    
+}
+.music{
+    padding: 0 20px;
+}
+.musicList{
+    height: 25px;
+    min-width: 250px;
+    padding: 2px 5px;
+    margin: 7px 0;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.musicList:hover{
+    background-color: skyblue;
+    color: black;
+}
+.musicList img{
+    border-radius: 13px;
+}
+#ss{
+    padding: 2px 4px;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3px;
+}
+#setRange{
+    width: 75%;
+    cursor: pointer;
+}
+.fa-solid{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
